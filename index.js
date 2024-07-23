@@ -23,3 +23,16 @@ switch(partOrFull){
         console.log("full time employee wage for today is ",attendance*8*20,"using switch")
 
 }
+
+let wageForMonth=0
+let daysWorked=0
+for(let i=0;i<20;i++){
+    const attendance=Math.floor(Math.random()*2)
+    if (attendance==1){
+        daysWorked+=1
+        wageForMonth+=(attendance*noOfHourPerDay*20)
+    }
+}
+console.log("days worked",daysWorked)
+console.log("wage for month",wageForMonth)
+
