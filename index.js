@@ -5,3 +5,7 @@ if(attendance==1){
 }else{
     console.log("absent")
 }
+
+let noOfHours=Math.floor(Math.random()*8)
+let wage=noOfHours*20
+console.log(wage)
